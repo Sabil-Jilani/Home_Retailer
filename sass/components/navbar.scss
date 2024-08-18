@@ -1,0 +1,25 @@
+.navbar {
+  padding: 5rem 0.6rem;
+  .ham__menue {
+    margin: 0 auto;
+    width: 70%;
+    height: 3px;
+    background-color: white;
+    &::before,
+    &::after {
+      content: "";
+      position: relative;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      left: 0;
+    }
+    &::after {
+      top: 0rem;
+    }
+    &::before {
+      top: 0.4rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.features {
+  color: $color-grey-dark-1;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  display: grid;
+  padding: 12rem 2.3rem;
+  /* background-color: red; */
+  grid-gap: 7.5rem 4.5rem;
+  &__heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  &__text {
+    font-size: 1.5rem;
+    /* letter-spacing: 4px; */
+    line-height: 1.3;
+  }
+}
